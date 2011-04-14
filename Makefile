@@ -72,7 +72,7 @@ ${QUNIT_DIR}:
 	$(call clone_or_pull, ${QUNIT_DIR}, git://github.com/jquery/qunit.git)
 
 ${SIZZLE_DIR}:
-	$(call clone_or_pull, ${SIZZLE_DIR}, git://github.com/jeresig/sizzle.git)
+	$(call clone_or_pull, ${SIZZLE_DIR}, git://github.com/jquery/sizzle.git)
 
 init: ${QUNIT_DIR} ${SIZZLE_DIR}
 
